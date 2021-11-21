@@ -1,0 +1,89 @@
+/* laptop */
+@media (min-width: 1024px){
+    nav .home,
+    nav .bars{
+        display: none;
+    }
+}
+/* taplet */
+@media (max-width: 1023px) and (min-width: 740px) {
+    .main {
+        margin: 0px 50px;
+    }
+
+    nav .home,
+    nav .bars{
+        display: none;
+    }
+
+    .slide-show{
+        flex-direction: column;
+    }
+    .slide-show .left{
+        width: 100%;
+    }
+    .slide-show .right{
+        width: 100%;
+    }
+
+    .news-product .list-products{
+        flex-wrap: wrap;
+    }
+    .news-product .list-products .items{
+        width: 50%;
+    }
+
+}
+
+/* moobile */
+@media (max-width: 739px) {
+    .main {
+        margin: 0px 10px;
+    }
+
+    nav{
+        padding: 0.6rem 0;
+    }
+
+    nav .navbar{
+        display: none;
+    }
+
+    nav .home{
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        margin-left: 30px;
+    }
+    nav .bars{
+        font-size:2.5rem;
+        color: rgb(255, 255, 255);
+        margin-right: 30px;
+    }
+
+    .slide-show{
+        flex-direction: column;
+    }
+    .slide-show .left{
+        width: 100%;
+    }
+    .slide-show .left .items{
+        width: 100%;
+    }
+    
+    .slide-show .right{
+        width: 100%;
+    }
+
+    .news-product .heading{
+        flex-direction: column;
+    }
+
+    .news-product .list-products{
+        flex-wrap: wrap;
+    }
+    .news-product .list-products .items{
+        width: 100%;
+    }
+
+}
+

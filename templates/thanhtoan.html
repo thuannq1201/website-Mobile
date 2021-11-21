@@ -1,93 +1,83 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>cao đẳng cơ điện hà nội</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link rel="stylesheet" href="../css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-QT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
 </head>
 <body>
-  <div class="wrap">
-	<div class="header">
-		<div class="header_top">
-			<div class="logo">
-				<a href="../index.html"><img src="	../images/logo.png" alt="" /></a>
-			</div>
-			  <div class="header_top_right">
-   
-		 <div class="clear"></div>
-	   </div>
-	 <div class="clear"></div>
-   </div>
-	<div class="topnav" id="myTopnav">
-  <a href="../index.html" class="active">TRANG CHỦ</a>
-  <a href="./Products.html">SẢN PHẨM MỚI</a>
-  <div class="dropdown">
-    <button class="dropbtn">CHUYÊN MỤC THEO SẢN PHẨM
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
- 		<a href="./ip.html">ĐIỆN THOẠI IPHONE</a>
-      <a href="./samsung.html">ĐIỆN THOẠI SAMSUNG</a>
-      <a href="./ip.html">ĐIỆN THOẠI VINSMART</a>
+    <div class="main">
+        <div class="wapper">
+            <!-- header -->
+            <header>
+                <a href="../index.html"><img src="../images/logo.png" alt="Logo smart store" class="logo"></a>
+            </header>
+
+            <!-- navigation -->
+            <nav> 
+                <i class="home fas fa-home"></i>
+
+                <ul class="navbar">
+                    <li><a href="../index.html">Trang chủ</a></li>
+                    <li><a href="./products-new.html">Sản phẩm mới</a></li>
+                    <li><a href="#">Chuyên mục theo sản phẩm</a>
+                        <ul class="subnav">
+                            <li><a href="./iphone.html">điện thoại Iphone</a></li>
+                            <li><a href="./samsung.html">điện thoại Samsung</a></li>
+                            <li><a href="./vinsmart.html">điện thoại Vinsmart</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <i class="bars fas fa-bars"></i>
+            </nav>
+
+            <!-- thanh toan / payment -->
+            <section class="preview payment">
+                <h2>Thanh toán <strong>25.899.000đ</strong></h2>
+
+                <div class="container">
+                    <div class="image">
+                        <img src="../images/s4.png" alt="review iphone">
+                    </div>
+
+                    <div class="content">
+                        <h3>THÔNG TIN THANH TOÁN</h3>
+                        <form action="">
+                            <div class="box">
+                                <span>HỌ VÀ TÊN:</span>
+                                <input type="text" name="" id="" placeholder="Nhập họ và tên">
+                            </div>
+
+                            <div class="box">
+                                <span>SỐ ĐIỆN THOẠI:</span>
+                                <input type="text" name="" id="" placeholder="Nhập sdt">
+                            </div>
+
+                            <div class="box">
+                                <span>CMND:</span>
+                                <input type="text" name="" id="" placeholder="Nhập CMND">
+                            </div>
+
+                            <div class="box">
+                                <span>NGÂN HÀNG:</span>
+                                <select name="" id="">
+                                    <option value="">Ngân hàng Techcombank</option>
+                                    <option value="">Ngân hàng Agribank</option>
+                                    <option value="">Ngân hàng BIDV</option>
+                                    <option value="">Ngân hàng Sacombank</option>
+                                    <option value="">Ngân hàng MBbank</option>
+                                </select>
+                            </div>
+                        </form>
+                        <a href="./ok.html"><button type="submit">Thanh toán</button></a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
-  </div> 
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
- <div class="container"><br>
-	<h4>Thanh toán <b>25.899.000đ</b></h4>
-	<div class="media col-md-12">
-		<img class="align-self-top col-md-3" src="../images/ip4.png" alt="">
-
-		<div class="media-body col-md-7">
-		
-	<h3>THÔNG TIN THANH TOÁN</h3>
-	<table class="table table-light">
-		<tbody>
-			<tr>
-				<th>HỌ VÀ TÊN</th>
-				<td><input type="text" class="form-control" placeholder="Tên của bạn" required name=""></td>
-			</tr>
-			<tr>
-				<th>SỐ ĐIỆN THOẠI</th>
-				<td><input type="text" class="form-control" placeholder="Số điện thoại" required name=""></td>
-			</tr>
-			<tr>
-				<th>CMND</th>
-				<td><input type="text" class="form-control" placeholder="Số CMND" required name=""></td>
-				</tr>
-				<tr>
-				<th>NGÂN HÀNG</th>
-				<td><select>
-					<option>Ngân hàng Tecombank</option>
-					<option>Ngân hàng Agribank</option>
-					<option>Ngân hàng Quân Đội</option>
-					<option>Ngân hàng Sacombank</option>
-					<option>Ngân hàng Matimebank</option>
-				</select></td>
-			</tr>
-<tr>
-				<th></th>
-				<td><button class="thanhtoan"><a href="#">THANH TOÁN</a> </button></td>
-
-			</tr>
-
-		</tbody>
-	</table>
-</div>
-
 </body>
-</html>
-

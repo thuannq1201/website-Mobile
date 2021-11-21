@@ -1,207 +1,249 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Cơ điện Hà Nội</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-		</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-QT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
+</head>
 <body>
-  <div class="wrap">
-	<div class="header">
-		<div class="header_top">
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt="" /></a>
-			</div>
-			  <div class="header_top_right">
-		 <div class="clear"></div>
-	 </div>
-	 <div class="clear"></div>
- </div>
-	<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">TRANG CHỦ</a>
-  <a href="./templates/products.html">SẢN PHẨM MỚI</a>
-  <div class="dropdown">
-    <button class="dropbtn">CHUYÊN MỤC THEO SẢN PHẨM 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="./templates/ip.html">ĐIỆN THOẠI IPHONE</a>
-      <a href="./templates/samsung.html">ĐIỆN THOẠI SAMSUNG</a>
-      <a href="./templates/ip.html">ĐIỆN THOẠI VINSMART</a>
-    </div>
-  </div> 
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+    <div class="main">
+        <div class="wapper">
+            <!-- header -->
+            <header>
+                <a href="./index.html"><img src="./images/logo.png" alt="Logo smart store" class="logo"></a>
+            </header>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+            <!-- navigation -->
+            <nav> 
+                <i class="home fas fa-home"></i>
 
-	<div class="header_bottom">
-		<div class="header_bottom_left">
-			<div class="section group">
-				<div class="listview_1_of_2 images_1_of_2">
-					<div class="listimg listimg_2_of_1">
-						 <a href="./templates/preview.html"> <img src="./images/s1.png" alt="" /></a>
-					</div>
-				    <div class="text list_2_of_1">
-						<h2>SAMSUNG</h2>
-						<p>Sản phẩm di động</p>
-						<div class="button"><span><a href="./templates/preview.html">Đặt Hàng</a></span></div>
-				   </div>
-			   </div>			
-				<div class="listview_1_of_2 images_1_of_2">
-					<div class="listimg listimg_2_of_1">
-						  <a href="./templates/preview.html"><img src="images/ip1.png" alt="" ></a>
-					</div>
-					<div class="text list_2_of_1">
-						  <h2>IPHONE</h2>
-						  <p>Sản phẩm di động</p>
-						  <div class="button"><span><a href="./templates/preview.html">Đặt Hàng</a></span></div>
-					</div>
-				</div>
-			</div>
-			<div class="section group">
-				<div class="listview_1_of_2 images_1_of_2">
-					<div class="listimg listimg_2_of_1">
-						 <a href="./templates/preview.html"> <img src="./images/h1.png" alt="" /></a>
-					</div>
-				    <div class="text list_2_of_1">
-						<h2>HUAWEI</h2>
-						<p>Sản phẩm di động</p>
-						<div class="button"><span><a href="./templates/preview.html">Đặt Hàng</a></span></div>
-				   </div>
-			   </div>			
-				<div class="listview_1_of_2 images_1_of_2">
-					<div class="listimg listimg_2_of_1">
-						  <a href="./templates/preview.html"><img src="images/v1.png" alt="" /></a>
-					</div>
-					<div class="text list_2_of_1">
-						  <h2>VINSMART</h2>
-						  <p>Sản phẩm di động</p>
-						  <div class="button"><span><a href="./templates/preview.html">Đặt Hàng</a></span></div>
-					</div>
-				</div>
-			</div>
-		  <div class="clear"></div>
-		</div>
-		<div class="header_bottom_right_images">
-			<img src="./images/slider1.png" width="100%" height="300px" alt="">
-	    </div>
-	  <div class="clear"></div>
-  </div>	
-</div>
- <div class="main">
-    <div class="content">
-    	<div class="content_top">
-    		<div class="heading">
-    		<h3>Sản Phẩm Mới</h3>
-    		</div>
-    		<div class="page-no">
-    			<p>Result Pages:<ul>
-    				<li><a href="#">1</a></li>
-    				<li class="active"><a href="#">2</a></li>
-    				<li><a href="#">3</a></li>
-    				<li>[<a href="#"> Next>>></a >]</li>
-    				</ul></p>
-    		</div>
-    		<div class="clear"></div>
-    	</div>
-	    <div class="section group">
-			<div class="grid_1_of_4 images_1_of_4 stretched-link">
-					<a href="./templates/preview.html"><img src="./images/s2.png" alt="" /></a>
-					<h2>SAMSUNG </h2>
-					<p>Sản phẩm di động</p>
-					<p><span class="strike">28.220.000đ</span><span class="price">25.220.000đ</span></p>
-					<div class="button"><span><img src="images/cart.jpg" alt="" /><a href="./templates/preview.html" class="cart-button">Đặt Hàng</a></span> </div>
-			</div>
-			<div class="grid_1_of_4 images_1_of_4 stretched-link">
-				<a href="./templates/preview.html"><img src="./images/s3.png" alt="" /></a>
-					<h2>SAMSUNG </h2>
-					<p>Sản phẩm di động</p>
-					<p><span class="strike">40.890.000đ</span><span class="price">20.870.000đ</span></p>
-					<div class="button"><span><img src="images/cart.jpg" alt="" /><a href="./templates/preview.html" class="cart-button">Đặt Hàng</a></span> </div>
-					
-			</div>
-			<div class="grid_1_of_4 images_1_of_4 stretched-link">
-				<a href="./templates/preview.html"><img src="./images/ip2.png" alt="" /></a>
-					<h2>IPHONE </h2>
-					<p>Sản phẩm di động</p>
-					<p><span class="strike">22.660.000đ</span><span class="price">20.970.000đ</span></p>
-					<div class="button"><span><img src="images/cart.jpg" alt="" /><a href="./templates/preview.html" class="cart-button">Đặt Hàng</a></span> </div>
-					
-			</div>
-			<div class="grid_1_of_4 images_1_of_4 stretched-link">
-				<a href="./templates/preview.html"><img src="./images/ip3.png" alt="" /></a>
-					<h2>IPHONE</h2>
-					<p>Sản phẩm di động</p>
-					<p><span class="strike">16.220.000đ</span><span class="price">15.540.000đ</span></p>
-					<div class="button"><span><img src="images/cart.jpg" alt="" /><a href="./templates/preview.html" class="cart-button">Đặt Hàng</a></span> </div>
-					
-			</div>
-		</div>
-		<!--  -->
-		<div class="content_bottom">
-    		<div class="heading">
-    		<h3>Sản Phẩm Nổi Bật</h3>
-    		</div>
-    		<div class="page-no">
-    			<p>Result Pages:<ul>
-    				<li><a href="#">1</a></li>
-    				<li class="active"><a href="#">2</a></li>
-    				<li><a href="#">3</a></li>
-    				<li>[<a href="#"> Next>>></a >]</li>
-    				</ul></p>
-    		</div>
-    		<div class="clear"></div>
-    	</div>
-	    <div class="section group">
-			<div class="grid_1_of_4 images_1_of_4 stretched-link">
-					<a href="./templates/preview.html"><img src="./images/h3.png" alt="" /></a>
-					<h2>HUAWEI </h2>
-					<p>Sản phẩm di động</p>
-					<p><span class="strike">28.220.000đ</span><span class="price">25.220.000đ</span></p>
-					<div class="button"><span><img src="images/cart.jpg" alt="" /><a href="./templates/preview.html" class="cart-button">Đặt Hàng</a></span> </div>
-			</div>
-			<div class="grid_1_of_4 images_1_of_4 stretched-link">
-				<a href="./templates/preview.html"><img src="./images/h2.png" alt="" /></a>
-					<h2>HUAWEI  </h2>
-					<p>Sản phẩm di động</p>
-					<p><span class="strike">20.890.000đ</span><span class="price">19.870.000đ</span></p>
-					<div class="button"><span><img src="images/cart.jpg" alt="" /><a href="./templates/preview.html" class="cart-button">Đặt Hàng</a></span> </div>
-					
-			</div>
-			<div class="grid_1_of_4 images_1_of_4 stretched-link">
-				<a href="./templates/preview.html"><img src="./images/ip3.png" alt="" /></a>
-					<h2>IPHONE </h2>
-					<p>Sản phẩm di động</p>
-					<p><span class="strike">20.660.000đ</span><span class="price">19.970.000đ</span></p>
-					<div class="button"><span><img src="images/cart.jpg" alt="" /><a href="./templates/preview.html" class="cart-button">Đặt Hàng</a></span> </div>
-					
-			</div>
-			<div class="grid_1_of_4 images_1_of_4 stretched-link">
-				<a href="./templates/preview.html"><img src="./images/ip4.png" alt="" /></a>
-					<h2>IPHONE </h2>
-					<p>Sản phẩm di động</p>
-					<p><span class="strike">36.220.000đ</span><span class="price">35.540.000đ</span></p>
-					<div class="button"><span><img src="images/cart.jpg" alt="" /><a href="./templates/preview.html" class="cart-button">Đặt Hàng</a></span> </div>
-					
-			</div>
-		</div>
-    </div>
- </div>
-</div>
-   <div class="footer">
-   	 
+                <ul class="navbar">
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="./templates/products-new.html">Sản phẩm mới</a></li>
+                    <li><a href="./templates/thanhtoan.html">Chuyên mục theo sản phẩm</a>
+                        <ul class="subnav">
+                            <li><a href="./templates/iphone.html">điện thoại Iphone</a></li>
+                            <li><a href="./templates/samsung.html">điện thoại Samsung</a></li>
+                            <li><a href="./templates/vinsmart.html">điện thoại Vinsmart</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <i class="bars fas fa-bars"></i>
+            </nav>
+
+            <!-- slide-show -->
+            <section class="slide-show">
+                <div class="left">
+                    <div class="items">
+                        <div class="image">
+                            <a href="./templates/preview.html"><img src="./images/s1.png" alt="Samsung "></a>
+                        </div>
+                        <div class="heading">
+                            <h2>Samsung</h2>
+                            <small>Sản phẩm di động</small>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="image">
+                            <a href="./templates/preview.html"><img src="./images/ip1.png" alt="Samsung "></a>
+                        </div>
+                        <div class="heading">
+                            <h2>Samsung</h2>
+                            <small>Sản phẩm di động</small>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="image">
+                            <a href="./templates/preview.html"><img src="./images/h1.png" alt="Samsung "></a>
+                        </div>
+                        <div class="heading">
+                            <h2>Samsung</h2>
+                            <small>Sản phẩm di động</small>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="image">
+                            <a href="./templates/preview.html"><img src="./images/v1.png" alt="Samsung "></a>
+                        </div>
+                        <div class="heading">
+                            <h2>Samsung</h2>
+                            <small>Sản phẩm di động</small>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="./templates/preview.html"><img src="./images/slider1.png" alt="slider iphone"></a>
+                </div>
+            </section>
+            
+            <!-- news-product -->
+            <section class="news-product">
+                <div class="heading">
+                    <h2>Sản phẩm mới</h2>
+                    <div class="pages">
+                        <span>Result Pages: </span>
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>[ Next >>> ]</span>
+                    </div>
+                </div>
+
+                <hr>
+                
+                <div class="list-products">
+                    <div class="items">
+                        <div class="images">
+                            <a href="./templates/preview.html"><img src="./images/s2.png" alt="samsung s2"></a>
+                        </div>
+                        <h3>samsung</h3>
+                        <small>Sản phẩm di động</small>
+                        <div class="price">
+                            <strike>22.666.000</strike>
+                            <strong>22.666.000</strong>
+                        </div>
+                        <div class="order">
+                            <i></i>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="images">
+                            <a href="./templates/preview.html"><img src="./images/s3.png" alt="samsung s2"></a>
+                        </div>
+                        <h3>samsung</h3>
+                        <small>Sản phẩm di động</small>
+                        <div class="price">
+                            <strike>22.666.000</strike>
+                            <strong>22.666.000</strong>
+                        </div>
+                        <div class="order">
+                            <i></i>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="images">
+                            <a href="./templates/preview.html"><img src="./images/s4.png" alt="samsung s2"></a>
+                        </div>
+                        <h3>samsung</h3>
+                        <small>Sản phẩm di động</small>
+                        <div class="price">
+                            <strike>22.666.000</strike>
+                            <strong>22.666.000</strong>
+                        </div>
+                        <div class="order">
+                            <i></i>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="images">
+                            <a href="./templates/preview.html"><img src="./images/h3.png" alt="samsung s2"></a>
+                        </div>
+                        <h3>samsung</h3>
+                        <small>Sản phẩm di động</small>
+                        <div class="price">
+                            <strike>22.666.000</strike>
+                            <strong>22.666.000</strong>
+                        </div>
+                        <div class="order">
+                            <i></i>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+            <section class="news-product">
+                <div class="heading">
+                    <h2>Sản phẩm nổi bật</h2>
+                    <div class="pages">
+                        <span>Result Pages: </span>
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>[ Next >>> ]</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="list-products">
+                    <div class="items">
+                        <div class="images">
+                            <a href="./templates/preview.html"><img src="./images/h2.png" alt="samsung s2"></a>
+                        </div>
+                        <h3>samsung</h3>
+                        <small>Sản phẩm di động</small>
+                        <div class="price">
+                            <strike>22.666.000</strike>
+                            <strong>22.666.000</strong>
+                        </div>
+                        <div class="order">
+                            <i></i>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="images">
+                            <a href="./templates/preview.html"><img src="./images/ip3.png" alt="samsung s2"></a>
+                        </div>
+                        <h3>samsung</h3>
+                        <small>Sản phẩm di động</small>
+                        <div class="price">
+                            <strike>22.666.000</strike>
+                            <strong>22.666.000</strong>
+                        </div>
+                        <div class="order">
+                            <i></i>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="images">
+                            <a href="./templates/preview.html"><img src="./images/ip4.png" alt="samsung s2"></a>
+                        </div>
+                        <h3>samsung</h3>
+                        <small>Sản phẩm di động</small>
+                        <div class="price">
+                            <strike>22.666.000</strike>
+                            <strong>22.666.000</strong>
+                        </div>
+                        <div class="order">
+                            <i></i>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="images">
+                            <a href="./templates/preview.html"><img src="./images/h4.png" alt="samsung s2"></a>
+                        </div>
+                        <h3>samsung</h3>
+                        <small>Sản phẩm di động</small>
+                        <div class="price">
+                            <strike>22.666.000</strike>
+                            <strong>22.666.000</strong>
+                        </div>
+                        <div class="order">
+                            <i></i>
+                            <a href="./templates/thanhtoan.html">Đặt hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
     </div>
 </body>
 </html>
-
